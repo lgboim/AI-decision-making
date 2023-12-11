@@ -12,8 +12,8 @@ To set up this project, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ai-decision-making-bot.git
-   cd ai-decision-making-bot
+   git clone https://github.com/yourusername/AI-decision-making.git
+   cd AI-decision-making
    ```
 
 2. **Install Dependencies**
