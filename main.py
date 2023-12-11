@@ -1,15 +1,13 @@
 from openai import OpenAI
-
 import os
 import json
 import requests
 from bs4 import BeautifulSoup
-
+from requests.exceptions import RequestException
 from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 
 # Load the OpenAI API key from an environment variable
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def load_memory():
     """
@@ -71,12 +69,6 @@ def perform_search(query):
     except Exception as e:
         print(f"Exception occurred during search: {e}")
         return []
-
-
-
-import requests
-from bs4 import BeautifulSoup
-from requests.exceptions import RequestException
 
 def scrape_website_content(url):
     """
