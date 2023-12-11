@@ -52,4 +52,3 @@ For any queries or feedback, please contact [lgboim@egmail.com](mailto:lgboim@eg
 
 ## Project Status
 This project is actively maintained and in continuous development. Check back for updates!
-```
